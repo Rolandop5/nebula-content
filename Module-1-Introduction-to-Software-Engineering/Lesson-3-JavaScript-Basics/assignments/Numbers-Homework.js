@@ -2,11 +2,15 @@
 // Remember to console.log() to debug your code and check your solutions!
 
 // Declare a variable and assign it to a numeric value
-// Half that value and re-assign it to the previous variable
+
 const myNum = 10
 
-console.log(myNum / 2)
+console.log(myNum)
+// Half that value and re-assign it to the previous variable
 
+const NunX = 12 
+NunX / 2
+console.log(NunX)
 
 // Create two negative numbers, assign them to variables and subtract one from the other together
 
@@ -48,8 +52,8 @@ console.log(Mnum)
 
 // Create a variable and find it's remainder, if divided by 2
 
-const x4 = 105
-const y5 = 4
+const x4 = 11
+const y5 = 2
 console.log(x4 % y5)
 
 // find the square root of 144
@@ -62,7 +66,7 @@ const pNu = Math.pow(3, 7)
 console.log(pNu)
 
 // find the value of 73.2 rounded
-const rVal = Math.round(72.2)
+const rVal = Math.round(73.2)
 console.log(rVal)
 
 // find the rounded-down value of 9.9
