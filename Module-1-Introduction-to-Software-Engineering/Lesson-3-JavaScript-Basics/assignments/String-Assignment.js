@@ -52,7 +52,7 @@ console.log(greeting1[4])
 
 // 6. Find the index of the dash from 'Coding-Time!'
 const coding = 'Coding-Time!'
-const cIndex = coding.indexOf ('-')
+const cIndex = coding.indexOf ("-")
 console.log(cIndex)
 
 // 7. Write code to grab the final letter from a any string.
