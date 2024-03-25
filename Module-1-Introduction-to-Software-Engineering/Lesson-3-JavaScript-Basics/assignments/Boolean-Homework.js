@@ -82,9 +82,9 @@ if (myN1 > myN2 && myN3 > myN4) {
 //let myN4 = 4
 
 //if (myN1 > myN2 || myN3 > myN4) {
-//    console.log("Yes 10 is greater.")
+ //   console.log("Yes 10 is greater.")
 //} else {
-//    console.log("No, 3 is less than 4.") 
+ //   console.log("No, 3 is less than 4.") 
 
 //8. Pick a number between 1-20 and assign it to a variable
 const randWaterMelon = Math.floor(Math.random() * 20) + 1
