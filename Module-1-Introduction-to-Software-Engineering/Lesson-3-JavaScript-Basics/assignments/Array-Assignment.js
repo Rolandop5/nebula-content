@@ -1,4 +1,4 @@
-// 1.   cCreate an array that ontains two of your favorite things to do
+// 1.   Create an array that contains two of your favorite things to do
 
 const favthings = ["cooking", "Working with computers"];
 console.log(favthings)
@@ -15,6 +15,7 @@ console.log(revfavthings)
     const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 // 4.   log the length of the array
 console.log(daysOfWeek.length)
+
 // 5.   log the 4th element in the array
 
 console.log(daysOfWeek[3])
@@ -67,6 +68,7 @@ console.log("My favorite day of the week is " + favoriteDay)
     let combArr = phone.concat(laptop);
 
 console.log(combArr);
+
 
 //13.   Write a line of code to test if something is an array or not
 
