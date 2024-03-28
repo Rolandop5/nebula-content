@@ -19,10 +19,10 @@ for(let i = 0; mLetters.length; i++) {
 // // // ex: Input: ['a','b','c', 100,'e']
 // // // Output: 'at index 3 there is the number 100'
 
-let rOfnumsStrs = [20, 40, 50, 'cat', 'Dog', 100, 'horse' ]
+let arOfnumsStrs = [20, 40, 50, 'cat', 'Dog', 100, 'horse' ]
 let targetArr = 100
-for(let i = 0; i < rOfnumsStrs.length; i++) {
-    if (rOfnumsStrs[i] === targetArr){
+for(let i = 0; i < arOfnumsStrs.length; i++) {
+    if (arOfnumsStrs[i] === targetArr){
         console.log(`at index position ${i} there is the number ${targetArr} taht we are looking for`)
         break
     }
