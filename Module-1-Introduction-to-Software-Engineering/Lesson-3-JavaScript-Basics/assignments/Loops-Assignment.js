@@ -117,14 +117,14 @@ for (let i = 0; i < celebListCaps.length; i++) {
 // // // Input:  ['Martha Stewart', 'David Beckham', etc..] 
 // // // Output: ['MARTHA-STEWART', 'DAVID-BECKHAM', etc..]
 
-let allCapsCel = ["Michael Jordan", "Payton Manning", "Derek Jitter", "Michael Jackson", "Tom Cruise"]
+/*let allCapsCel = ["Michael Jordan", "Payton Manning", "Derek Jitter", "Michael Jackson", "Tom Cruise"]
 let allCapsNames = [];
 for (let i = 0; i < allCapsCel.length; i++) {
     let cfullName = allCapsCel[i];
     let noSpaceModeName = '';
 
-    for (let j = 0; j < cfullName.length; j++) {
-        let letter = cfullName[j]
+    for (let j = 0; j < allCapsNames.length; j++) {
+        let letter = allCapsNames[j]
         if (letter [j] !== ' ') {
             noSpaceModeName += letter[j].toUpperCase();
             console.log(letter);
@@ -134,7 +134,7 @@ for (let i = 0; i < allCapsCel.length; i++) {
     allCapsCel.push(noSpaceModeName);
 }
 
-console.log(allCapsCel)
+console.log(allCapsCel)*/
 
 
 // 10.  Index your array to find your favorite celebrity. 
