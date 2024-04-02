@@ -60,10 +60,10 @@ dreamCarCopy.PowerOn()
 // 9.Create a method for turning your vehicle off
 let dreamCarNew = { ...dreamCar} 
     
-     function PowerOff() {
-        console.log('The vehicle is now turned off.')
-}
+    function PowerOff() {
+     console.log('The vehicle is now turned off.')
 
+    }
      
 dreamCarNew.PowerOff = PowerOff
 dreamCarNew.PowerOff()
@@ -79,17 +79,17 @@ dreamCarNew.PowerOff()
 
 accelerate: function() {
     console.log("Zoom zoom! Accelerating...");
-},
+}
 honk: function() {
     console.log("Beep beep! Honking the horn...");
-},
+}
 checkIfOn: function() {
     if (this.isOn) {
         console.log("The vehicle is on.");
     } else {
         console.log("The vehicle is off.");
     }
-},
+}
 start: function() {
     if (!this.isOn) {
         this.isOn = true;
@@ -97,7 +97,7 @@ start: function() {
     } else {
         console.log("The vehicle is already on.");
     }
-},
+}
 stop: function() {
     if (this.isOn) {
         this.isOn = false;
@@ -113,4 +113,4 @@ DreamCarNew.checkIfOn();
 DreamCarNew.start(); 
 DreamCarCopy.checkIfOn(); 
 DreamCarCopy.stop();
-DreamCarCopy.checkIfOn();
+DreamCarCopy.checkIfOn()
