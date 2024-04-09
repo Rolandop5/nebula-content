@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+  #myColorSqr {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db;
+    cursor: pointer;
+  }
