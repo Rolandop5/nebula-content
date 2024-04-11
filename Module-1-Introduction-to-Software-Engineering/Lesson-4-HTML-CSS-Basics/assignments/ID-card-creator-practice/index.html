@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student ID Card Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="container">
+        <form id="inputForm">
+          <label for="studentIDname">Name:</label><br>
+          <input type="text" id="studentIDname" name="studentIDname" required><br><br>
+          
+          <label for="stuentIDNumber">ID Number:</label><br>
+          <input type="text" id="stuentIDNumber" name="stuentIDNumber" required><br><br>
+          
+          <label for="studentIDaddress">Address:</label><br>
+          <input type="text" id="studentIDaddress" name="studentIDaddress" required><br><br>
+          
+          <label for="funFact">funFact:</label><br>
+          <input type="text" id="funFact" name="funFact" required><br><br>
+          
+          <input type="button" value="Update ID Card" onclick="generateIDCard()">
+          <input type="button" id="clearAllButton" value="Clear All" onclick="clearAllCards()">
+ 
+        </form>
+      </div>
+      
+            
+      
+    <script src='script.js'></scriptsrc></script>
+</body>
+</html>

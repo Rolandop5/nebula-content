@@ -85,7 +85,7 @@ console.log(numberToString.length)
               return 'Unknown';
       }    */
 
-      const bodyElement = document.body;
+     /* const bodyElement = document.body;
 
 bodyElement.setAttribute('style', 'background-color: lightblue');
 
@@ -141,4 +141,84 @@ resetButton.textContent = 'Reset and Clear';
 
 resetButton.addEventListener('click', function() {
     h1Element.textContent = '0';
-});
+});*/
+
+/*function openOrSenior(data) {
+ 
+  let result = [];
+
+  
+  for (let i = 0; i < data.length; i++) {
+    
+    let age = data[i][0];
+    let handicap = data[i][1];
+
+    
+    if (age >= 55 && handicap > 7) {
+     
+      result.push("Senior");
+    } else {
+     
+      result.push("Open");
+    }
+  }
+
+  // Return the array containing the membership status of each member
+  return result;
+}
+
+// Example usage:
+const data = [[45, 12],[55,21],[19, -2],[104, 20]];
+const membershipStatus = openOrSenior(data);
+console.log(membershipStatus); // Output: ['Open', 'Senior', 'Open', 'Senior']
+
+*/
+
+
+
+/*function openOrSenior(data){
+  let newMembers = [];
+  for(let i = 0; i < data.length; i++){
+  
+  let newMembAge = data[i][0];
+  let handicapScore = data[i][1];
+  
+  if(newMembAge >= 55 && handicapScore > 7){
+     console.log(handicapScore)
+  
+  newMembers.push("Senior");
+  }
+ 
+  else{
+  newMembers.push("Open");  
+  }
+}
+  return  newMembers;
+  
+}
+const data = [[45, 12],[55,21],[19, -2],[104, 20]];
+const membershipStatus = openOrSenior(data);
+console.log(membershipStatus); // Output: ['Open', 'Senior', 'Open', 'Senior']
+*/
+
+
+function openOrSenior(data){
+  let newMembers = [];
+  for(let i = 0; i < data.length; i++){
+  
+  let newMembAge = data[i][0];
+  let handicapScore = data[i][1];
+  
+  if(newMembAge >= 55 && handicapScore > 7){
+     
+  
+  newMembers.push("Senior");
+  }
+ 
+  else{
+  newMembers.push("Open");  
+  }
+  }
+  return  newMembers;
+  
+}
